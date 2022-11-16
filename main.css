@@ -116,6 +116,11 @@ header ul li {
     font-weight: 600;
 }
 
+.Contact-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 .main-slider {
     position: absolute;
     width: 1286.5px;
@@ -192,6 +197,11 @@ header ul li {
     z-index: 3;
 }
 
+.more-details-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 .main-slider-button {
     position: absolute;
     width: 71px;
@@ -202,7 +212,10 @@ header ul li {
     display: flex;
     align-items: center;
 }
-
+.main-slider-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
 .rectangle-left {
     width: 14.82px;
     height: 3.09px;
@@ -288,6 +301,8 @@ header ul li {
 
 }
 
+.box-selection {background-color: white;}
+
 .box-selection-left {
     position: absolute;
     width: 343px;
@@ -355,3 +370,318 @@ header ul li {
     color: #8B8B8B;
 }
 
+
+.about-us {
+    position: absolute;
+    width: 1291.15px;
+    height: 1028.89px;
+    left: 150px;
+    top: 1448px;
+}
+
+.about-title-desc {
+    position: absolute;
+    width: 664px;
+    height: 292px;
+    left: 0;
+    top:350px;             
+}
+
+.about-title-name {
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #FF64AE;
+}
+
+.about-title-content1 {
+    position: absolute;
+    width: 664px;
+    height: 52px;
+    left: 0px;
+    top: 32px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    /* or 45px */
+
+
+    color: #091156;
+}
+
+.about-title-content2 {
+    position: absolute;
+    width: 483px;
+    height: 196px;
+    left:0;
+    top: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+
+    color: #8B8B8B;
+}
+
+.about-title-button {
+    position: absolute;
+    width: 200px;
+    height: 58.36px;
+    left: 0px;
+    top: 695px;
+    background-color: #FF64AE;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;  
+    border: none;                       
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.about-title-button:hover {
+    opacity: 0.7;
+}
+
+.about-play-button {
+    position: absolute;
+    width: 213px;
+    height: 49px;
+    left: 244px;
+    top: 700px;
+    border: none;
+    background-color: #fff;
+}
+.about-play-button:hover {
+    opacity: 0.8;
+}
+
+.play-button-icon {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 0;
+    top: -1px;
+    background: #091156;
+    border-radius: 50%;
+}
+.play-button-icon::before {
+    content: "";
+    border-width: 15px 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: 9px;
+    right: 4px;
+    transform: rotate(90deg);
+}
+
+.play-button-content {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+    color: #8B8B8B;
+}
+
+.about-image {
+    position: absolute;
+    left: 640px;
+    top: 320px;
+    border-radius: 50px;
+}
+
+.about-background {
+    position: absolute;
+    width: 948.15px;
+    height: 1028.89px;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.about-background1 {
+    position: absolute;
+    width: 883.63px;
+    height: 959.04px;
+    right:0;
+    top: 0;
+    z-index: -1;
+}
+
+.about-background2 {
+    
+    position: absolute;
+    width: 948.15px;
+    height: 1028.89px;
+    right:0;
+    top: 0;
+    z-index: -3;
+
+}
+
+.professional {
+    position: absolute;
+    width: 1085px;
+    height: 861px;
+    left: 178px;
+    top: 2344px;
+
+}
+
+.professional-title {
+    position: absolute;
+    width: 848px;
+    height: 148px;
+    left: 146px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.professional-teams {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #FF64AE;
+}
+
+.professional-title-content1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 125%;
+    /* or 45px */
+
+    text-align: center;
+
+    color: #091156;
+
+}
+.professional-title-content2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #8B8B8B;
+}
+
+.professional-section-left {
+    position: absolute;
+    width: 270px;
+    height: 439px;
+    left: 0px;
+    top: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.professional-section-right {
+    position: absolute;
+    width: 270px;
+    height: 439px;
+    right: 0px;
+    top: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.professional-section-mid {
+    position: absolute;
+    width: 424px;
+    height: 626px;
+    left: 330px;
+    bottom: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px 25px #F7F7FF;
+    border-radius: 42px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pro-img-left-right {
+    width: 146px;
+    height: 146px;
+    margin-bottom: 25px;
+}
+.pro-img-mid {
+    width: 146px;
+    height: 146px;
+    margin-bottom: 40px;
+}
+
+.pro-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #FF64AE;
+
+}
+.pro-title-mid {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #FF64AE;
+    margin-bottom: 20px;
+}
+
+.pro-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+
+    color: #091156;
+}
+.pro-name-mid {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+
+    color: #091156;
+    margin-bottom: 25px;
+}
+
+.pro-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 270px;
+    color: #8B8B8B;
+}
+.pro-content-mid {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    width: 270px;
+    color: #8B8B8B;
+    margin-bottom: 15px;
+}
