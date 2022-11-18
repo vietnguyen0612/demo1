@@ -16,7 +16,7 @@ body {
     position: relative;
     max-width: 1440px;
     overflow: hidden;
-   
+  
 }
 
 header {
@@ -678,9 +678,16 @@ header ul li {
 
 .contact-us {
     position: relative;
-    width: 1290.33px;
     height: 1072px;
    
+}
+
+.contact-hold {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
 
 .contact-background {
@@ -709,19 +716,14 @@ header ul li {
 }
 
 .contact-animation {
-    position: absolute;
     width: 520px;
     height: 614px;
-    left: 150px;
-    top: 420px;
+    margin-bottom: 70px;
 }
 
 .contact-title {
-    position: absolute;
     width: 497px;
     height: 169px;
-    left: 770px;
-    top: 215px;
 }
 
 .contact-us-name {
@@ -756,11 +758,8 @@ header ul li {
 }
 
 .contact-form {
-    position: absolute;
     width: 520px;
     height: 652px;
-    left: 770px;
-    top: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -849,6 +848,13 @@ header ul li {
     margin: 0 auto;
 }
 
+.footer-container {
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-between;
+    transform: translate(0, 200px);
+}
+
 .footer-background1 {
     position: absolute;
     width: 1440px;
@@ -868,11 +874,8 @@ header ul li {
 }
 
 .footer-sidebar1 {
-    position: absolute;
     width: 492px;
     height: 191px;
-    left: 150px;
-    top: 240px;
 
 }
 
@@ -936,11 +939,9 @@ header ul li {
 
 
 .footer-sidebar2 {
-    position: absolute;
+    
     width: 131px;
     height: 219px;
-    left: 770px;
-    top: 225px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -979,11 +980,10 @@ color: #FFFFFF;
 
 
 .footer-sidebar3 {
-    position: absolute;
+    
     width: 215px;
     height: 184px;
-    left: 1070px;
-    top: 225px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1021,26 +1021,28 @@ color: #FFFFFF;
 .arrow-to-top {
     position: absolute;
     top: 500px;
-    left: 1340px;
+    right: 70px;
+}
+
+.footer-bottom {
+    display: flex;
+    transform: translate(0 , 370px);
+    justify-content: space-between;
+    padding: 0 150px;
+
 }
 
 .social-media {
-    position: absolute;
     width: 305px;
     height: 27.84px;
-    left: 150px;
-    top: 600px;
     display: flex;
     justify-content: space-between;
 
 }
 
 .source {
-    position: absolute;
     width: 497px;
     height: 31.18px;
-    top: 600px;
-    left: 831px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reponsive.css">
     <title>Home 1</title>
 </head>
 <body>
@@ -36,13 +37,20 @@
         <div class="main-slider">
             <img class="Bubble1" src="img/Bubble 1.svg" alt="anh1">
             <img class="Bubble1" src="img/Bubble 2.svg" alt="anh2">
-            <img class="Animation-1"src="/img/Animation-1.svg" alt="anh2">
-            <div class="main-slider-content">
-                <h1>Clinic & beauty consultant</h1>
-                <p>It is a long established fact that a reader will be by the readable content of a page</p>
-            </div>
-            <div class="more-details-button">
-                More Details
+
+
+
+            <div>
+                <img class="Animation-1"src="/img/Animation-1.svg" alt="anh2">
+                <div class="main-slider-left">
+                    <div class="main-slider-content">
+                        <h1>Clinic & beauty consultant</h1>
+                        <p>It is a long established fact that a reader will be by the readable content of a page</p>
+                    </div>
+                    <div class="more-details-button">
+                        More Details
+                    </div>
+                </div>
             </div>
             <div class="main-slider-button">
                 <div class="rectangle-left"></div>
@@ -156,80 +164,92 @@
                 <img class="contact-background2" src="/img/contactbackground2.svg" alt="contact background">
             </div>
 
-            <div class="contact-animation">
-                <img class="contact-animation-image" src="img/Contact Animations.svg" alt="">
-            </div>
-
-            <div class="contact-title">
-                <p class="contact-us-name">Contact Us</p>
-                <h2 class="contact-content1">Send your inquiry to our expert team</h2>
-                <p class="contact-content2">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
-            </div>
-
-            <div class="contact-form">
-                <div class="contact-form-name">
-                    <input type="text" placeholder="First name">
-                    <input type="text" placeholder="Last name">
+            <div class="contact-hold">
+                <div class="contact-animation">
+                    <img class="contact-animation-image" src="img/Contact Animations.svg" alt="">
                 </div>
-
-                <input class="contact-form-email-message" type="text" placeholder="Email address">
-                <input class="contact-form-email-message" type="text" placeholder="Subject message">
-
-                <textarea class="contact-form-inquiry" type="text" placeholder="Your inquiry here"></textarea>
-
-                <button class="contact-form-confirm">Send Message</button>
+    
+                
+                <div class="contact-right">
+                    <div class="contact-title">
+                        <p class="contact-us-name">Contact Us</p>
+                        <h2 class="contact-content1">Send your inquiry to our expert team</h2>
+                        <p class="contact-content2">Lorem ipsum dolor sit amet nulla turapis tellus.</p>
+                    </div>
+        
+                    <div class="contact-form">
+                        <div class="contact-form-name">
+                            <input type="text" placeholder="First name">
+                            <input type="text" placeholder="Last name">
+                        </div>
+        
+                        <input class="contact-form-email-message" type="text" placeholder="Email address">
+                        <input class="contact-form-email-message" type="text" placeholder="Subject message">
+        
+                        <textarea class="contact-form-inquiry" type="text" placeholder="Your inquiry here"></textarea>
+        
+                        <button class="contact-form-confirm">Send Message</button>
+                    </div>
+                </div>
             </div>
+            
 
         </div>
 
         <div class="footer">
-            <div class="footer-sidebar1">
-                <div class="logo">
-                    <div class="header-icon">
-                        <div class="header-icon-1 "></div>
-                        <div class="header-icon-2"></div>
-                        <div class="header-icon-3"></div>
+            <div class="footer-container">
+                <div class="footer-sidebar1">
+                    <div class="logo">
+                        <div class="header-icon">
+                            <div class="header-icon-1 "></div>
+                            <div class="header-icon-2"></div>
+                            <div class="header-icon-3"></div>
+                        </div>
+                        <span class="logo-name">Beautice</span>
+        
                     </div>
-                    <span class="logo-name">Beautice</span>
     
+                    <div class="footer-sidebar1-content">Beautice is a Beauty Clinic WordPress Theme.</div>
+                    <div class="footer-sidebar1-address">Baker Steet 101, NY, United States.</div>
+                    <div class="footer-sidebar1-phone-email">
+                        <a class="phone" href="tell:+521 569 8966">+521 569 8966.</a>
+                        <a class="email" href="mailto:mail@company.com">mail@company.com.</a>
+                    </div>    
                 </div>
+                <div class="footer-sidebar2">
+                    <div class="pages">Pages</div>
+                    <div class="item home"> Home</div>
+                    <div class="item About"> About</div>
+                    <div class="item Service"> Service</div>
+                    <div class="item gallery"> Gallery</div>
+                    <div class="item team"> Team</div>
+                </div>
+                <div class="footer-sidebar3">
+                    <div class="informations">Informations</div>
+                    <div class="item home">Terms & conditions</div>
+                    <div class="item About">Privacy policy</div>
+                    <div class="item Service">Blog</div>
+                    <div class="item gallery">Contact</div>
+                </div>
+            </div>
 
-                <div class="footer-sidebar1-content">Beautice is a Beauty Clinic WordPress Theme.</div>
-                <div class="footer-sidebar1-address">Baker Steet 101, NY, United States.</div>
-                <div class="footer-sidebar1-phone-email">
-                    <a class="phone" href="tell:+521 569 8966">+521 569 8966.</a>
-                    <a class="email" href="mailto:mail@company.com">mail@company.com.</a>
-                </div>    
-            </div>
-            <div class="footer-sidebar2">
-                <div class="pages">Pages</div>
-                <div class="item home"> Home</div>
-                <div class="item About"> About</div>
-                <div class="item Service"> Service</div>
-                <div class="item gallery"> Gallery</div>
-                <div class="item team"> Team</div>
-            </div>
-            <div class="footer-sidebar3">
-                <div class="informations">Informations</div>
-                <div class="item home">Terms & conditions</div>
-                <div class="item About">Privacy policy</div>
-                <div class="item Service">Blog</div>
-                <div class="item gallery">Contact</div>
-            </div>
+
             <div class="footer-background">
                 <img class="footer-background1" src="/img/Footer BG 1.svg" alt="background">
                 <img class="footer-background2" src="/img/Footer BG 2.svg" alt="background">
             </div>
             <img class="arrow-to-top" src="img/ToTop Button.png" alt="arrow">
 
-            <div class="social-media">
-                <img src="img/facebook-f.svg" alt="">
-                <img src="img/twitter-t.svg" alt="">
-                <img src="img/linkedin-in.svg" alt="">
-                <img src="img/youtube.svg" alt="">
-                <img src="img/instagram (1).svg" alt="">
+            <div class="footer-bottom">
+                <div class="social-media">
+                    <img src="img/facebook-f.svg" alt="">
+                    <img src="img/twitter-t.svg" alt="">
+                    <img src="img/linkedin-in.svg" alt="">
+                    <img src="img/youtube.svg" alt="">
+                    <img src="img/instagram (1).svg" alt="">
+                </div>
+                <div class="source">© AltDesain Studio 2021 - All right reserved.</div>
             </div>
-            <div class="source">© AltDesain Studio 2021 - All right reserved.</div>
         </div>
         
     </div>
